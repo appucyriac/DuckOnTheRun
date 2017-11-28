@@ -5,14 +5,19 @@ body {
     margin-bottom: 100px;
     clear: both;
 }
+@font-face {
+    font-family: "heroes";
+    src: url("../fonts/Heroes Legend.ttf");
+}
+
 
 h1 {
     color:  #568DE7;
-    font-size: 300%;
+    font-size: 185%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 26px;
     margin-bottom: 10px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: "heroes";
 }
 
 h2 {
@@ -33,13 +38,13 @@ ul {
 
 footer {
     position: fixed;
-    left: 0;
+    left: -22px;
     bottom: -20px;
     width: 100%;
     padding: 20px;
     margin: 0;
     color: white;
-    background-color: #568DE7;
+    height: 100px;
     clear: left;
 }
 
@@ -48,7 +53,7 @@ article {
     line-height: 250%;
     text-align: center;
     justify-content: center;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand';
     font-size: 17px;
 }
 .center_justified {
@@ -64,7 +69,7 @@ article {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Quicksand';
     font-size: 15px;
 }
 /***********************************************************************************************/
@@ -83,7 +88,34 @@ article {
 }
 .read_more_button
 {
-    height: 100px;
-    width: 130px;
-    margin-left: 580px;
+   
+    padding: 10px 40px;
+    padding-left: 17px;
+    background: #FF7F50;
+    width: 132px;
+    border-radius: 25px;
+    font-family: heroes;
+    margin-left: 471px;
+    padding-right: 15px;
+    height: 17px;
+    color: white;
+
+}
+.dotr_title
+{
+    position: absolute;
+    top: 162px;
+    left: 262px;
+}
+.app_download_appstore
+{
+    position: absolute;
+    top: 316px;
+    left: 606px;
+}
+.app_download_playstore
+{
+    position: absolute;
+    top: 316px;
+    left: 400px;
 }
