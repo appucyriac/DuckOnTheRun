@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 body {
     background-color: white;
     margin: 0;
@@ -5,14 +9,14 @@ body {
     margin-bottom: 100px;
     clear: both;
 }
+
 @font-face {
     font-family: "heroes";
     src: url("../fonts/Heroes Legend.ttf");
 }
 
-
 h1 {
-    color:  #568DE7;
+    color: #568DE7;
     font-size: 185%;
     text-align: center;
     margin-top: 26px;
@@ -21,101 +25,312 @@ h1 {
 }
 
 h2 {
-    color: grey;
-    font-family: 'Muli', sans-serif;
-    font-size: 200%;
-    padding: 1em;
-    margin-left: 155px;
+    padding-top: 100px;
+}
+
+h3 {
+    color: #568DE7;
+    font-size: 230%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    font-family: "heroes";
+}
+
+h4 {
+    color: white;
+    font-size: 185%;
+    position: relative;
+}
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: white;
+}
+
+li {
+display: inline;
+}
+
+input[type=email] {
+-moz-border-radius: 25px;
+border-radius: 25px;
+border: solid 0.2px grey;
+width: 200px;
+height: 30px;
+padding: 5px;
+box-shadow: 1px 1px 1px #888888;
+margin-left: 489px;
+background-image: url(../images/email.gif);
+background-position: 7px 7px;
+background-repeat: no-repeat;
+}
+
+form input {
+-moz-border-radius: 25px;
+border-radius: 25px;
+border: solid 1px #568DE7;
+width: 300px;
+height: 30px;
+padding: 5px;
+display: block;
+margin-top: 15px;
+}
+
+input[type=email]:focus, form input:focus {
+outline: none;
 }
 
 footer {
-    position: fixed;
-    left: -22px;
-    bottom: -20px;
-    width: 100%;
-    padding: 20px;
-    margin: 0;
-    color: white;
-    height: 100px;
-    clear: left;
+position: fixed;
+left: -22px;
+bottom: -20px;
+width: 100%;
+margin: 0;
+color: white;
+height: 100px;
+clear: left;
 }
 
 /************************************* article style classes************************************/
 article {
-    line-height: 250%;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Quicksand';
-    font-size: 17px;
+line-height: 250%;
+text-align: center;
+justify-content: center;
+font-family: 'Quicksand';
+font-size: 17px;
 }
+
 .center_justified {
-  text-align: center;
-  margin: 0 auto;
-  width: 56em;
+text-align: center;
+margin: 0 auto;
+width: 43em;
 }
+
 /*********************************main menu style classes**********************************/
 .menu {
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    font-size: 15px;
+float: right;
+display: inline;
+color: black;
+text-align: center;
+padding-left: 8px;
+padding-top: 15px;
+text-decoration: none;
+font-family: 'Quicksand';
+font-size: 15px;
 }
-/***********************************************************************************************/
-.logo_image{
-    margin-left: 100px;
-}
-.help_button{
-    position: absolute;
-    top: 171px;
-    right: 0;
-    z-index: 1;
-}
-.more_menu_button
-{
-    cursor: pointer;
-}
-.read_more_button
-{
-   
-    padding: 10px 40px;
-    padding-left: 17px;
-    background: #FF7F50;
-    width: 132px;
-    border-radius: 25px;
-    font-family: heroes;
-    margin-left: 471px;
-    padding-right: 15px;
-    height: 17px;
-    color: white;
 
+/***********************************************************************************************/
+.logo_image {
+margin-left: 100px;
 }
-.dotr_title
-{
-    position: absolute;
-    top: 162px;
-    left: 262px;
+
+.help_button {
+position: absolute;
+top: 171px;
+right: 0;
+z-index: 1;
 }
-.app_download_appstore
-{
-    position: absolute;
-    top: 316px;
-    left: 606px;
+
+.more_menu_button {
+cursor: pointer;
+padding-left: 50px;
 }
-.app_download_playstore
-{
-    position: absolute;
-    top: 316px;
-    left: 400px;
+
+.home_banner {
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+.global_button {
+background: #FCB93C;
+width: 154px;
+border-radius: 25px;
+font-family: heroes;
+color: white;
+box-shadow: 1px 2px 1px #888888;
+margin-top: 15px;
+outline: none;
+}
+
+.read_more_button {
+padding: 27px 40px;
+padding-left: 17px;
+margin-left: 550px;
+padding-right: 15px;
+padding-top: 18px;
+height: 17px;
+}
+
+.dotr_title {
+position: absolute;
+top: 162px;
+left: 262px;
+}
+
+.app_download_appstore {
+position: absolute;
+top: 416px;
+left: 606px;
+}
+
+.app_download_playstore {
+position: absolute;
+top: 416px;
+left: 400px;
+}
+
+.description {
+position: absolute;
+top: 286px;
+left: 338px;
+font-size: 25px;
+width: 497px;
+line-height: 160%;
+}
+
+.chicken_gift_image {
+float: left;
+padding-top: 100px;
+}
+
+.children_image {
+padding-top: 100px;
+}
+
+.family_class {
+display: inline;
+font-family: 'Quicksand';
+}
+
+.description_header_children {
+position: relative;
+top: -121px;
+}
+
+.children_descr {
+position: relative;
+top: -112px;
+left: 125px;
+width: 20em;
+text-align: left;
+line-height: 170%;
+font-size: 15px;
+}
+
+.children {
+position: absolute;
+top: 1000px;
+left: 700px;
+}
+
+.parent {
+position: absolute;
+top: 1180px;
+left: 700px;
+}
+
+.academic {
+position: absolute;
+top: 1350px;
+left: 700px;
+}
+
+/*****************************************image slider******************************************/
+.image_slider_container {
+background-image: url(../images/testimonial-bg.png);
+margin-top: 15px;
+padding: 50px;
+}
+
+.slider_image {
+margin-left: 500px;
+}
+
+.nav_button {
+margin-bottom: 10px;
+position: relative;
+top: -95px;
+}
+
+.nav_button:focus {
+outline: none;
+}
+
+#nav_button_next {
+background-image: url(../images/next-arrow.png);
+float: right;
+}
+
+#nav_button_previous {
+background-image: url(../images/prev-arrow.png);
+float: left;
+}
+
+/**************************************************news letter*********************************/
+.news_letter {
+display: inline;
+margin-left: 40px;
+height: 47px;
+width: 90px;
+}
+
+#news_letter_descr {
+width: 25em;
+margin-left: 422px;
+padding-top: 16px;
+line-height: 172%;
+}
+
+/***********************************************form style*************************************/
+.contact_section {
+margin-bottom: -100px;
+width: 100%;
+height: 100%;
+}
+
+#crocodile_img {
+float: right;
+position: relative;
+margin-bottom: -56px;
+}
+
+.contact_form {
+position: relative;
+float: right;
+margin-right: 200px;
+margin-top: -600px;
+}
+
+#form-header {
+margin-right: 49px;
+}
+
+#question_form {
+height: 100px;
+}
+
+#send-enquiry {
+height: 47px;
+width: 90px;
+margin-left: 200px;
+}
+
+#form_descr {
+color: #568DE7;
+width: 21em;
+line-height: 150%;
+}
+
+/**************************************************footer styles************************************/
+#daticient-logo {
+position: relative;
+float: left;
 }
