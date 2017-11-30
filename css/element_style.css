@@ -74,7 +74,6 @@ input[type=email] {
     padding-left: 55px;
     background-image: url(../images/email.png);
     background-position: 7px 7px;
-    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -87,8 +86,27 @@ form input {
     padding: 5px;
     display: block;
     margin-top: 15px;
+    padding-left: 55px;
 }
-
+input[type=contact_email]{
+        background-image: url(../images/email.png);
+    background-position: 12px 5px;
+    background-repeat: no-repeat;
+}
+input[type=question]{
+        background-image: url(../images/form-qn-icon.png);
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+}
+input[type=question]::placeholder{
+    position: relative;
+    top:-33px;
+}
+input[type=user_name]{
+        background-image: url(../images/form-name-icon.png);
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+}
 input[type=email]:focus, form input:focus {
     outline: none;
 }
@@ -129,7 +147,10 @@ article {
     padding-top: 15px;
     text-decoration: none;
     font-family: 'Quicksand';
-    font-size: 15px;
+    font-size: 16px;
+}
+#text-seperator{
+    color: darkgrey;
 }
 
 /***********************************************************************************************/
@@ -139,7 +160,7 @@ article {
 
 .help_button {
     position: absolute;
-    top: 171px;
+    top: 134px;
     right: 0;
     z-index: 1;
 }
@@ -178,27 +199,27 @@ article {
 }
 
 .dotr_title {
-    position: absolute;
-    top: 162px;
-    left: 262px;
+     position: absolute;
+    top: 134px;
+    left: 275px;
 }
 
 .app_download_appstore {
     position: absolute;
-    top: 416px;
-    left: 606px;
+    top: 350px;
+    left: 657px;
 }
 
 .app_download_playstore {
     position: absolute;
-    top: 416px;
-    left: 400px;
+    top: 350px;
+    left: 439px;
 }
 
 .description {
     position: absolute;
-    top: 286px;
-    left: 338px;
+    top: 245px;
+    left: 382px;
     font-size: 25px;
     width: 497px;
     line-height: 160%;
@@ -292,12 +313,11 @@ article {
 
 .slider_descr {
     background: white;
-    width: 250px;
+    width: 240px;
     height: 180px;
-    border-radius: 25px;
+    border-radius: 54px;
     font-family: heroes;
     color: white;
-    box-shadow: 1px 2px 1px #888888;
     margin-top: 125px;
     margin-bottom: 20px;
     outline: none;
@@ -365,6 +385,9 @@ article {
     background-size: cover;
     position: relative;
     margin-top: -50px;
+    z-index: 1;
+    padding-top: 4px;
+    margin-bottom: 64px;
 }
 
 #news_letter_descr {
@@ -430,13 +453,15 @@ article {
     left: 376px;
 }
 
+
 .sub_header {
     color: #568DE7;
     font-size: 185%;
     text-align: center;
-    margin-top: 26px;
+    margin-top: 13px;
     margin-bottom: 10px;
     font-family: "heroes";
+    padding-top: 80px;
 }
 
 .column_two {

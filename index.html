@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/element_style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Duck On The Run: Home</title>
 </head>
@@ -19,7 +18,7 @@
                     <ul>
                         <li><img src="images/more-menu.png" alt="more-button" class="more_menu_button menu" /></li>
                         <li><a class="menu" href="index.html"><b>How to  Play</b></a></li>
-                        <li><a class="menu" href="#"><b>|</b></a></li>
+                        <li><b class="menu" id="text-seperator">|</b></li>
                         <li><a class="menu" href="#"> <b>Contact Us</b></a></li>
                         <li><a href="#"></a><img src="images/logo.png" alt="logo-image" class="logo_image"></a>
                         </li>
@@ -64,33 +63,33 @@
                 </div>
         </section>
         <div class="owl-carousel">
-            <div><img class="slider_image" src="images/slider/headshot-1.png" style="width:50%%">
+            <div><img class="slider_image" src="images/slider/headshot-1.png">
                 <span class="slider_descr">
                 <h2 class="slider_title">Oliver</h2>
                 <h2 class="user_age">10 years</h2>
                 <article class="slider_article">Lorem Ipsumis simply dummy text of the printing and typesetting industry</article>
             </span>
             </div>
-            <div><img class="slider_image" src="images/slider/headshot-2.png" style="width:50%%">
+            <div><img class="slider_image" src="images/slider/headshot-2.png">
                 <span class="slider_descr">
             <h2 class="slider_title">Maria</h2>
             <h2 class="user_age">10 years</h2>
             <article class="slider_article">Lorem Ipsumis simply dummy text of the printing and typesetting industry</article>
             </span>
             </div>
-            <div><img class="slider_image" src="images/slider/headshot-3.png" style="width:50%%">
+            <div><img class="slider_image" src="images/slider/headshot-3.png">
                 <span class="slider_descr">
                 <h2 class="slider_title">Dan</h2>
                 <h2 class="user_age">28 years</h2>
                 <article class="slider_article">Lorem Ipsumis simply dummy text of the printing and typesetting industry</article>
             </span>
             </div>
-            <div><img class="slider_image" src="images/slider/headshot-3.png" style="width:50%%">
+            <div><img class="slider_image" src="images/slider/headshot-2.png">
                 <span class="slider_descr">
-                <h2 class="slider_title">Dan</h2>
-                <h2 class="user_age">10 years</h2>
-                <article class="slider_article">Lorem Ipsumis simply dummy text of the printing and typesetting industry</article>
-            </span>
+                 <h2 class="slider_title">Maria</h2>
+                 <h2 class="user_age">10 years</h2>
+                 <article class="slider_article">Lorem Ipsumis simply dummy text of the printing and typesetting industry</article>
+                </span>
             </div>
             <div><img class="slider_image" src="images/slider/headshot-1.png" style="width:50%%">
                 <span class="slider_descr">
@@ -113,8 +112,8 @@
                 <h3 id="form-header">contact us</h3>
                 <article id="form_descr">Please use the form below to contact us. we will get back to you as soon as possible</article>
                 <input type="user_name" name="user_name" placeholder="Your Name">
-                <input type="contact_email" name="email_field" placeholder="Your Email Adress">
-                <input type="text" name="email_field" placeholder="Write a Question" id="question_form">
+                <input type="contact_email" name="email_field" placeholder="Email">
+                <input type="question" name="email_field" placeholder="Write a Question" id="question_form">
                 <button class="global_button" id="send-enquiry">Send</button>
             </form>
         </div>
@@ -150,7 +149,7 @@
         </div>
     </footer>
     <script type="text/javascript" src="scripts/image_slider.js"></script>
-    <script src="OwlCarousel/dist//owl.carousel.min.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
 </body>
 
 </html>
