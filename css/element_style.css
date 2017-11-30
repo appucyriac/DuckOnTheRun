@@ -318,7 +318,6 @@ article {
     border-radius: 54px;
     font-family: heroes;
     color: white;
-    box-shadow: 1px 2px 1px #888888;
     margin-top: 125px;
     margin-bottom: 20px;
     outline: none;
@@ -386,6 +385,8 @@ article {
     background-size: cover;
     position: relative;
     margin-top: -50px;
+    z-index: 1;
+    padding-top: 4px;
 }
 
 #news_letter_descr {
