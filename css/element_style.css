@@ -74,7 +74,6 @@ input[type=email] {
     padding-left: 55px;
     background-image: url(../images/email.png);
     background-position: 7px 7px;
-    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -87,8 +86,27 @@ form input {
     padding: 5px;
     display: block;
     margin-top: 15px;
+    padding-left: 55px;
 }
-
+input[type=contact_email]{
+        background-image: url(../images/email.png);
+    background-position: 12px 5px;
+    background-repeat: no-repeat;
+}
+input[type=question]{
+        background-image: url(../images/form-qn-icon.png);
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+}
+input[type=question]::placeholder{
+    position: relative;
+    top:-33px;
+}
+input[type=user_name]{
+        background-image: url(../images/form-name-icon.png);
+    background-position: 15px 5px;
+    background-repeat: no-repeat;
+}
 input[type=email]:focus, form input:focus {
     outline: none;
 }
